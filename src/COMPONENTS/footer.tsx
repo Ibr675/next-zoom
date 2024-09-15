@@ -3,9 +3,9 @@ import LINK from 'next/link'
 const footer = () => {
   return (
     <div className='flex gap-8 p-6 bg-red-400'> 
-      <LINK href="\"> INTRODUCTION PAGE </LINK>
-      <LINK href="\HOME"> HOME PAGE </LINK>
-      <LINK href="\CONTACT"> CONTACT PAGE </LINK>
+      <LINK href="\"> OUR   </LINK>
+      <LINK href="\HOME"> JOURNEY </LINK>
+      <LINK href="\CONTACT"> BEGINS </LINK>
     </div>
   )
 }

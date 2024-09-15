@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Image from 'next/image'
 const page = () => (
   <div><figure className="bg-blue-200 rounded-x5s p-8 md:p-0 dark:bg-slate-800">
-    <img className="w-40 h-40 rounded-full not-rounded" src="/image1.jpg" alt="" width="500s" height="700" />
+    <Image className="w-40 h-40 rounded-full not-rounded" src="/image1.jpg" alt="" width="500" height="700" />
     <div className="pt-5 space-y-4">
       <blockquote>
         <p className="text-lg font-large">

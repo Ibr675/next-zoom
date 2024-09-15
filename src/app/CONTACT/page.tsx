@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Image from 'next/image'
 const page = () => (
   <div><figure className="bg-blue-200 rounded-x5s p-8 md:p-0 dark:bg-slate-800">
-    <img className="w-40 h-40 rounded-full center" src="/image.3.jpg" alt="" width="500s" height="700" />
+    <Image className="w-100 h-100 md:w-48 md;h-auto md:rounded full rounded-full mx auto"src="/image.3.jpg"alt=""width="384"height="412"/>
     <div className="pt-7 space-y-4">
       <blockquote>
         <p className="text-lg font-large">
@@ -14,7 +14,7 @@ const page = () => (
           M Ibrahim Cheema
         </div>
         <div className="text-green-700 dark:text-green-700">
-          From Rahimyarkhan
+          From Rahimyarkhancd
       </div>
   </figcaption>
   </div>

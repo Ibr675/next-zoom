@@ -6,7 +6,7 @@ const page = () => (
     <div className="pt-7 space-y-4">
       <blockquote>
         <p className="text-lg font-large">
-          "I can assist you in Rahimyarkhan  i am available between 6am to 9am if you have any sort of problem can physically meet me betweeen the give time ."
+          "I can assist you in my Rahimyarkhan  i am available between 6am to 9am if you have any sort of problem can physically meet me betweeen the give time ."
         </p>
       </blockquote>
       <figcaption className="font-large">

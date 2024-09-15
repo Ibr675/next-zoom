@@ -6,7 +6,7 @@ const Header = () => {
       <LINK href="\"> INTRODUCTION </LINK>
       <LINK href="\HOME"> HOME</LINK>
       <LINK href="\CONTACT"> CONTACT </LINK>
-      <LINK href="\CONTACT"> BUSNESS </LINK>
+      <LINK href="\BUSNESS"> BUSNESS </LINK>
     </div>
   )
 }

@@ -6,7 +6,7 @@ const page = () => (
     <div className="pt-5 space-y-4">
       <blockquote>
         <p className="text-lg font-large">
-          "My house is a cozy and comfortable place where I live with my family. It's a two-story building with a bright red door and a beautiful garden in the front. The moment I step inside, I feel a sense of warmth and happiness.
+          "My house is cozy and comfortable place where I live with my family. It's a two-story building with a bright red door and a beautiful garden in the front. The moment I step inside, I feel a sense of warmth and happiness.
 
 The living room is my favorite place in the house, with its soft couches and big windows that let in plenty of sunlight. We spend most of our evenings there, watching TV or chatting together."
         </p>

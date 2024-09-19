@@ -6,6 +6,7 @@ const footer = () => {
       <LINK href="\"> OUR   </LINK>
       <LINK href="\HOME"> JOURNEY </LINK>
       <LINK href="\CONTACT"> BEGINS </LINK>
+      <LINK href="\BUSNESS"> HEAR </LINK>
     </div>
   )
 }

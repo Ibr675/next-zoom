@@ -5,17 +5,17 @@ const Header = () => {
   return (
     <div className="flex justify-center items-center p-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
       <div className="flex gap-6">
-        <Link href="/" className="text-lg font-bold text-white hover:text-gray-200">
+        <Link href="/" className="footer-link">
           OUR STORY
         </Link>
-        <Link href="/HOME" className="text-lg font-bold text-white hover:text-gray-200">
-          OUR HOME
+        <Link href="/HOME" className="footer-link">
+          OUR JOURNEY
         </Link>
-        <Link href="/CONTACT" className="text-lg font-bold text-white hover:text-gray-200">
+        <Link href="/CONTACT" className="footer-link">
           GET IN TOUCH
         </Link>
-        <Link href="/BUSNESS" className="text-lg font-bold text-white hover:text-gray-200">
-         OUR BUSNESS
+        <Link href="/BUSNESS" className="footer-link">
+          OUR BUSINESS
         </Link>
       </div>
     </div>

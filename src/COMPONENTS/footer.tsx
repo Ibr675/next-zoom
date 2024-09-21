@@ -9,7 +9,7 @@ const Footer = () => {
           OUR STORY
         </Link>
         <Link href="/HOME" className="footer-link">
-          OUR HOUSE
+          OUR JOURNEY
         </Link>
         <Link href="/CONTACT" className="footer-link">
           GET IN TOUCH

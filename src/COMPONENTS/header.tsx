@@ -9,7 +9,7 @@ const Header = () => {
           OUR STORY
         </Link>
         <Link href="/HOME" className="footer-link">
-          OUR JOURNEY
+          OUR HOUSE
         </Link>
         <Link href="/CONTACT" className="footer-link">
           GET IN TOUCH

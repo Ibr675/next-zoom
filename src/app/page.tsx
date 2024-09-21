@@ -1,26 +1,51 @@
-import React from 'react'
-import Image from 'next/image'
-const page = () => (
-  <div><figure className="bg-blue-200 rounded-x10s p-8 md:p-0 dark:bg-slate-800">
-    <Image className="w-40 h-40 rounded-full not-rounded" src="/image.png" alt="" width="500" height="700" />
-    <div className="pt-5 space-y-4">
-      <blockquote>
-        <p className="text-lg font-large">
-          "Meet Ibrahim a curious and ambitious student of Generative Artificial Intelligence! With a passion for learning and a drive to innovate, I am is dedicated to exploring the vast possibilities of AI and its potential to transform industries and improve lives. Through diligent study and hands-on experimentation, I am gaining a deep understanding of AI concepts, tools, and techniques, and is well on their way to becoming a skilled AI practitione under the guidence of Sir Mian Asif”
-        </p>
-      </blockquote>
-      <figcaption className="font-small">
-        <div className="text-black-200 dark:text-blue-200">
-          M Ibrahim Cheema
-        </div>
-        <div className="text-green-700 dark:text-green-700">
-          From Rahimyarkhan
+import React from 'react';
+
+const Page = () => {
+  return (
+    <div
+      className="container mx-auto p-4 pt-6 mt-10"
+      style={{
+        backgroundImage: `url(/image-8.jpg)`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '100vh',
+        backgroundBlendMode: 'overlay',
+        animation: 'zoom-in-out 10s infinite',
+      }}
+    >
+      <div className="bg-black bg-opacity-50 h-full p-4">
+        <figure className="md:flex rounded-xl p-8 md:p-0 shadow-md">
+          <div
+            className="flex justify-center md:justify-start"
+            style={{
+              
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              width: '300px',
+              height: '300px',
+              borderRadius: '50%',
+              margin: 'auto',
+            }}
+          />
+          <div className="pt-6 md:p-8 text-center md:text-left space-y-4 md:ml-4">
+            <blockquote className="border-l-4 border-sky-500 pl-4 md:pl-8">
+              <p className="text-lg font-medium leading-relaxed text-white">
+                “Hello, I'm Ibrahim, a curious and ambitious learner under the guidance of Sir Asif, a renowned expert in Generative AI. With a strong passion for innovation and technological advancement, I am dedicated to mastering the art of generating intelligent solutions. Through Sir Asif's mentorship, I am gaining expertise in harnessing the potential of AI to create, improve, and transform. I look forward to exploring the vast possibilities of Generative AI and making meaningful contributions to this exciting field."
+              </p>
+            </blockquote>
+            <figcaption className="font-medium">
+              <div className="text-sky-500">
+                IBRAHIM CHEEMA
+              </div>
+              <div className="text-red-400">
+                RAHIMYARKAHN
+              </div>
+            </figcaption>
+          </div>
+        </figure>
       </div>
-  </figcaption>
-  </div>
-  </figure>
-  </div>
-  )
+    </div>
+  );
+};
 
-
-export default page
+export default Page;

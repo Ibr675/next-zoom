@@ -12,4 +12,26 @@
     50% {
       transform: scale(1);
     }
-  } 
+  }
+  
+  .container {
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .figure {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .blockquote {
+    border-left-color: #3498db;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .figure {
+      flex-direction: column;
+    }
+}
+
+  

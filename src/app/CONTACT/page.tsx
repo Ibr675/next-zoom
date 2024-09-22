@@ -24,7 +24,7 @@ const Page = () => {
               height: '300px',
               borderRadius: '50%',
               margin: 'auto',
-              backgroundImage: `url(fresh-salad.jpg)`,
+              backgroundImage: `url(.jpg)`,
             }}
           />
           <div className="pt-6 md:p-8 text-center md:text-left space-y-4 md:ml-4">

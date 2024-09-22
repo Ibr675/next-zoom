@@ -6,16 +6,16 @@ const Header = () => {
     <div className="flex justify-center items-center p-6 bg-gradient-to-r from-purple-500 to-pink-500 text-blue">
       <div className="flex gap-6">
         <Link href="/" className="footer-link">
-          OUR STORY
+          HOME PAGE
         </Link>
         <Link href="/HOME" className="footer-link">
-          OUR HOUSE
+          DESSERT SHOP
         </Link>
         <Link href="/CONTACT" className="footer-link">
-          GET IN TOUCH
+          SALAD SHOP
         </Link>
         <Link href="/BUSNESS" className="footer-link">
-          OUR BUSINESS
+          PIZZA SHOP
         </Link>
       </div>
     </div>

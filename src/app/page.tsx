@@ -1,76 +1,107 @@
-import React from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
+import { useState } from 'react';
 
-const Page = () => {
+export default function Home() {
   return (
-    <div
-      className="container mx-auto p-4 pt-6 mt-10 h-screen"
-      style={{
-        backgroundImage: `url(image-12.jpg)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundBlendMode: 'overlay',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
-      }}
-    >
+    <div>
+      <Head>
+        <title>Paranormal Cafe</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       {/* Hero Section */}
-      <figure className="flex rounded-xl p-8 shadow-md md:flex justify-center bg-gray-100 bg-opacity-50">
-        <div className="md:w-1/2 w-full">
-          <h1 className="text-4xl font-bold text-yellow-300">PARANORMAL CAFE</h1>
-          <blockquote className="border-l-4 border-sky-500 pl-4 md:pl-8">
-            <p className="text-2xl font-large leading-relaxed text-red-600">
-              "At PARANORMAL CAFE, our legacy is built on a passion for serving delicious, high-quality food that brings people together. Enjoy our mouthwatering pizzas, fresh salads, and decadent desserts that make every moment special."
-            </p>
-          </blockquote>
-          <figcaption className="font-medium">
-            <div className="text-sky-500">Order Now and Get 10% Off!</div>
-          </figcaption>
-          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-            Order Now
-          </button>
+      <section className="h-screen bg-cover bg-center" style={{ backgroundImage: 'url(/image-12.jpg)' }}>
+        <div className="container mx-auto p-4 pt-6 mt-10 flex flex-col justify-center items-center">
+          <h1 className="text-8xl font-bold text-yellow-300 animate-pulse">PARANORMAL CAFE</h1>
+          <p className="text-3xl font-large leading-relaxed text-white opacity-80 animate-fade-in">Experience the Beyond</p>
+          <Link href="/BUSNESS" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded animate-bounce">Order Now</Link>
         </div>
-        {/* Menu Categories */}
-        <div className="md:w-1/2 w-full md:pl-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {/* Pizzas */}
-            <div className="bg-white rounded-xl p-4 shadow-md">
-              <h2 className="text-2xl font-bold">Pizzas</h2>
-              <ul className="list-disc pl-4">
-                <li>Margherita ($12.99)</li>
-                <li>Pepperoni ($14.99)</li>
-                <li>Veggie Delight ($13.99)</li>
-                <li>Meat Lover's ($16.99)</li>
-              </ul>
-            </div>
+      </section>
+``"
 
-            {/* Sides */}
-            <div className="bg-white rounded-xl p-4 shadow-md">
-              <h2 className="text-2xl font-bold">Sides</h2>
-              <ul className="list-disc pl-4">
-                <li>Garlic Bread ($4.99)</li>
-                <li>Chicken Wings ($6.99)</li>
-                <li>Onion Rings ($5.99)</li>
-                <li>Salad ($3.99)</li>
-              </ul>
-            </div>
 
-            {/* Desserts */}
-            <div className="bg-white rounded-xl p-4 shadow-md">
-              <h2 className="text-2xl font-bold">Desserts</h2>
-              <ul className="list-disc pl-4">
-                <li>Tiramisu ($5.99)</li>
-                <li>Cannoli ($6.99)</li>
-                <li>Cheesecake ($7.99)</li>
-                <li>Ice Cream ($4.99)</li>
-              </ul>
-            </div>
+_Chunk 2: pages/index.js (continued)_
+
+
+jsx
+      {/* Menu Categories */}
+      <section className="bg-gray-100 py-8">
+        <div className="container mx-auto p-4 flex flex-wrap justify-center">
+          <div className="md:w-1/2 w-full md:pr-8">
+            <h2 className="text-2xl font-bold mb-2">Pizzas</h2>
+            <ul className="list-disc pl-4">
+              <li>Margherita ($12.99)</li>
+              <li>Pepperoni ($14.99)</li>
+              <li>Veggie Delight ($13.99)</li>
+              <li>Meat Lover's ($16.99)</li>
+            </ul>
+          </div>
+          <div className="md:w-1/2 w-full md:pl-8">
+            <h2 className="text-2xl font-bold mb-2">Sides</h2>
+            <ul className="list-disc pl-4">
+              <li>Garlic Bread ($4.99)</li>
+              <li>Chicken Wings ($6.99)</li>
+              <li>Onion Rings ($5.99)</li>
+              <li>Salad ($3.99)</li>
+            </ul>
           </div>
         </div>
-      </figure>
+      </section>
+REVIEWS OF OUR BELOVED ALL
+      {/* Testimonials */}
+      <section className="bg-gray-900 py-8">
+        <div className="container mx-auto p-4 flex flex-wrap justify-center">
+          <div className="md:w-1/2 w-full md:pr-8">
+            <blockquote className="border-l-4 border-yellow-300 pl-4 md:pl-8 mb-4">
+              <p className="text-2xl font-large leading-relaxed text-yellow-300">"Best pizza I've ever had! Highly recommend!"</p>
+              <cite className="font-medium text-white">— John D.</cite>
+            </blockquote>
+          </div>
+          <div className="md:w-1/2 w-full md:pl-8">
+            <blockquote className="border-l-4 border-yellow-300 pl-4 md:pl-8 mb-4">
+              <p className="text-2xl font-large leading-relaxed text-yellow-300">"Love the atmosphere and service!"</p>
+              <cite className="font-medium text-white">— Emily K.</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="bg-red-500 py-4">
+        <div className="container mx-auto p-4 flex flex-wrap justify-center">
+          <h2 className="text-4xl font-bold text-white">Order Now and Get 10% Off!</h2>
+          <Link href="/BUSNESS" className="bg-yellow-300 hover:bg-yellow-500 text-red-600 font-bold py-2 px-4 rounded">ORDER</Link>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 py-4">
+        <div className="container mx-auto p-4 flex flex-wrap justify-center">
+          <p className="text-lg font-medium text-gray-300">&copy; 2024 Paranormal Cafe</p>
+          <ul className="flex flex-wrap justify-center">
+            <li></li>
+              <Link href="/contact" className="text-lg font-medium text-gray-300 hover:text-gray-100">Contact</Link>
+              <li>
+              <Link href="/about" className="text-lg font-medium text-gray-300 hover:text-gray-100">About</Link>
+            </li>
+            <li>
+              <Link href="/menu" className="text-lg font-medium text-gray-300 hover:text-gray-100">Menu</Link>
+            </li>
+          </ul>
+          <div className="flex flex-wrap justify-center mt-4">
+            <Link href="#" className="text-lg font-medium text-gray-300 hover:text-gray-100 mr-4">
+              <i className="fab fa-facebook-f"></i>
+            </Link>
+            <Link href="#" className="text-lg font-medium text-gray-300 hover:text-gray-100 mr-4">
+              <i className="fab fa-instagram"></i>
+            </Link>
+            <Link href="#" className="text-lg font-medium text-gray-300 hover:text-gray-100">
+              <i className="fab fa-twitter"></i>
+            </Link>
+          </div>
+        </div>
+      </footer>
     </div>
   );
-};
-
-export default Page;
-
-
-
+}

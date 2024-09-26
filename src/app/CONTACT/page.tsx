@@ -5,7 +5,7 @@ const Page = () => {
     <div
       className="container mx-auto p-4 pt-6 mt-10"
       style={{
-        backgroundImage: `url(image-14.jpg)`,
+        backgroundImage: `url(image-13.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',

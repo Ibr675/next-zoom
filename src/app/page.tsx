@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="h-screen bg-cover bg-center" style={{ backgroundImage: 'url(/image-12.jpg)' }}>
         <div className="container mx-auto p-4 pt-6 mt-10 flex flex-col justify-center items-center">
-          <h1 className="text-8xl font-bold text-yellow-300 animate-pulse">PARANORMAL CAFE</h1>
+          <h1 className="text-8xl font-bold text-red-600 animate-pulse">PARANORMAL CAFE</h1>
           <p className="text-3xl font-large leading-relaxed text-white opacity-80 animate-fade-in">Experience the Beyond</p>
           <Link href="/BUSNESS" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded animate-bounce">Order Now</Link>
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
 ``"
 
 
-_Chunk 2: pages/index.js (continued)_
+Chunk 2: pages/index.js (continued)
 
 
 jsx
